@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="center"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:background="@drawable/back"
+    tools:context="com.match.sunnyside.sunnysidestaff.AddFirst">
+
+    <LinearLayout
+        android:id="@+id/camera_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="0.4">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.6"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ibVideo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:scaleType="fitCenter"
+                android:src="@drawable/video" />
+
+            <ImageButton
+                android:id="@+id/ibSwitch"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:scaleType="fitCenter"
+                android:src="@drawable/switchcam" />
+
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/ibGallery"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:scaleType="fitCenter"
+            android:src="@drawable/gallery" />
+    </LinearLayout>
+</LinearLayout>

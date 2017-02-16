@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scaleType="center"
+    android:background="@drawable/back"
+    android:paddingBottom="20dp"
+    tools:context="com.match.sunnyside.sunnysidestaff.Gaming">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="0.4"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.9"
+        android:textSize="20dp"/>
+    <VideoView
+        android:id="@+id/videoViewGaming"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1" />
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.6"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnLeft"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:visibility="invisible"
+            android:scaleType="fitCenter"/>
+
+        <ImageButton
+            android:id="@+id/btnRight"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:scaleType="fitCenter"
+            android:visibility="invisible"/>
+    </LinearLayout>
+
+</LinearLayout>

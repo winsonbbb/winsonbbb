@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:scaleType="center"
+    android:background="@drawable/back"
+    tools:context="com.match.sunnyside.sunnysidestaff.MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5">
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="start"
+            android:background="@drawable/gamestart"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="50dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5">
+    <Button
+        android:id="@+id/btnEdit"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:onClick="edit"
+        android:background="@drawable/edit"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="50dp"
+        />
+    </RelativeLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.match.sunnyside.sunnysidestaff">
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+
+        android:screenOrientation="landscape"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".FirstScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Start"
+
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Edit"
+
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Gaming"
+
+            android:screenOrientation="landscape"/>
+        <activity android:name=".YouWin"
+
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Delete"
+
+            android:screenOrientation="landscape"/>
+        <activity android:name=".AddFirst"
+
+            android:screenOrientation="landscape"/>
+        <activity android:name=".AddSecond"
+
+            android:screenOrientation="landscape"/>
+        <activity android:name=".AddThird"
+
+            android:screenOrientation="landscape"/>
+        <activity android:name=".ConfirmPage"
+
+            android:screenOrientation="landscape"/>
+        <activity android:name=".WrongAns"
+
+            android:screenOrientation="landscape"></activity>
+    </application>
+
+</manifest>
